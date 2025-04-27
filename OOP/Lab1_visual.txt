@@ -1,0 +1,11 @@
+                      
+
+
+
+                         
+
+                          Choice:
+		[ ] Task 1(arrays)
+		[ ] Task 2(max in array)
+		[ ] Task 3(additional task)
+		[ ] Close

@@ -1,0 +1,9 @@
+                                Choice
+[ ] Lab1 - Arrays (finish)
+[ ] Lab2 - Arrays 
+[ ] Lab3 - Arrays
+[ ] Lab4 - Arrays
+[ ] Lab5 - Arrays
+[ ] Lab6 - Arrays
+[ ] Lab7 - Arrays
+[ ] Close

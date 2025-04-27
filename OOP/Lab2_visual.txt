@@ -1,0 +1,14 @@
+                      
+
+
+
+                         
+
+                          Choice:
+		[ ] Task 1(shifts)
+		[ ] Task 2(enscrypt)
+		[ ] Task 2(descrypt)
+		[ ] Task 3(mod enscrypt)
+		[ ] Task 3(mod descrypt)
+		[ ] Task 4(shifts 2 integer)
+		[ ] Close
