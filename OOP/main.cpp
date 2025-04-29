@@ -37,8 +37,7 @@ int main() {
         case 5:
         {
             system("cls");
-            std::cout << "Coming soon..." << std::endl;
-            std::cin.get();
+            lab5();
             break;
         }
 

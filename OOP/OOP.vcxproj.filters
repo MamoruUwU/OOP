@@ -25,6 +25,9 @@
     <Filter Include="Source Files\Lab4">
       <UniqueIdentifier>{b124bece-6e63-46e3-9b07-6f3fd31ed4db}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Lab5">
+      <UniqueIdentifier>{70161f4c-b66b-4a1e-ae58-842ae8ccf151}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="task1_1.cpp">
@@ -108,6 +111,21 @@
     <ClCompile Include="lab4_visual.cpp">
       <Filter>Source Files\Lab4</Filter>
     </ClCompile>
+    <ClCompile Include="task5_1.cpp">
+      <Filter>Source Files\Lab5</Filter>
+    </ClCompile>
+    <ClCompile Include="task5_2.cpp">
+      <Filter>Source Files\Lab5</Filter>
+    </ClCompile>
+    <ClCompile Include="task5_3.cpp">
+      <Filter>Source Files\Lab5</Filter>
+    </ClCompile>
+    <ClCompile Include="lab5_visual.cpp">
+      <Filter>Source Files\Lab5</Filter>
+    </ClCompile>
+    <ClCompile Include="lab5.cpp">
+      <Filter>Source Files\Lab5</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="tasks1.h">
@@ -149,6 +167,18 @@
     <ClInclude Include="tasks4.h">
       <Filter>Source Files\Lab4</Filter>
     </ClInclude>
+    <ClInclude Include="Liquid.h">
+      <Filter>Source Files\Lab5</Filter>
+    </ClInclude>
+    <ClInclude Include="Wheels.h">
+      <Filter>Source Files\Lab5</Filter>
+    </ClInclude>
+    <ClInclude Include="Person.h">
+      <Filter>Source Files\Lab5</Filter>
+    </ClInclude>
+    <ClInclude Include="tasks5.h">
+      <Filter>Source Files\Lab5</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Lab2_visual.txt">
@@ -165,6 +195,9 @@
     </Text>
     <Text Include="lab4_visual.txt">
       <Filter>Source Files\Lab4</Filter>
+    </Text>
+    <Text Include="lab5_visual.txt">
+      <Filter>Source Files\Lab5</Filter>
     </Text>
   </ItemGroup>
 </Project>

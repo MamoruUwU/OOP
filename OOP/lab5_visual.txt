@@ -1,0 +1,11 @@
+                      
+
+
+
+                         
+
+                          Choice:
+		[ ] Task 1(Liquid)
+		[ ] Task 2(Wheels)
+		[ ] Task 3(Persons and teachers)
+		[ ] Close

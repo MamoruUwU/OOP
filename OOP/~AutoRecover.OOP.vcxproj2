@@ -104,6 +104,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <BuildStlModules>true</BuildStlModules>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -132,9 +133,12 @@
     <ClCompile Include="lab2_visual.cpp" />
     <ClCompile Include="lab3.cpp" />
     <ClCompile Include="lab3_visual.cpp" />
+    <ClCompile Include="Lab4.cpp" />
+    <ClCompile Include="lab4_visual.cpp" />
     <ClCompile Include="Methods.cpp" />
     <ClCompile Include="Lab2.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="task1.cpp" />
     <ClCompile Include="task1_1.cpp" />
     <ClCompile Include="task1_2.cpp" />
     <ClCompile Include="task1_3.cpp" />
@@ -149,25 +153,31 @@
     <ClCompile Include="task3_3.cpp" />
     <ClCompile Include="task4_1.cpp" />
     <ClCompile Include="task4_2.cpp" />
+    <ClCompile Include="task4_3.cpp" />
     <ClCompile Include="Useful.cpp" />
     <ClCompile Include="Visual.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FullName.h" />
     <ClInclude Include="Labs.h" />
+    <ClInclude Include="Liquid.h" />
     <ClInclude Include="Matrix.h" />
+    <ClInclude Include="MatrixLong.h" />
     <ClInclude Include="Methods.h" />
     <ClInclude Include="tasks3.h" />
     <ClInclude Include="tasks1.h" />
     <ClInclude Include="tasks2.h" />
+    <ClInclude Include="tasks4.h" />
     <ClInclude Include="TicTacToe.h" />
     <ClInclude Include="Vector3D.h" />
     <ClInclude Include="Vector.h" />
+    <ClInclude Include="VectorLong.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Lab1_visual.txt" />
     <Text Include="Lab2_visual.txt" />
     <Text Include="lab3_visual.txt" />
+    <Text Include="lab4_visual.txt" />
     <Text Include="Visual.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

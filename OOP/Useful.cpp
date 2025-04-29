@@ -71,16 +71,31 @@ namespace Useful {
         SetConsoleCursorPosition(hConsole, { 0, 0 });
     }
 
-    void HideCursor()
-    {
+    void setCursorVisible(bool visible) {
+        HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
         CONSOLE_CURSOR_INFO cursorInfo;
-        cursorInfo.dwSize = 100;
-        cursorInfo.bVisible = FALSE;
-        SetConsoleCursorInfo(consoleHandle, &cursorInfo);
+
+        GetConsoleCursorInfo(hConsole, &cursorInfo);
+        cursorInfo.bVisible = visible ? TRUE : FALSE;
+        SetConsoleCursorInfo(hConsole, &cursorInfo);
+    }
+
+    void DisableScrollBars()
+    {
+        CONSOLE_SCREEN_BUFFER_INFO bufferInfo;
+        GetConsoleScreenBufferInfo(consoleHandle, &bufferInfo);
+        COORD newBuffetSize =
+        {
+            bufferInfo.srWindow.Right - bufferInfo.srWindow.Left + 1,
+            bufferInfo.srWindow.Bottom - bufferInfo.srWindow.Top + 1
+        };
+
+        SetConsoleScreenBufferSize(consoleHandle, newBuffetSize);
     }
 
     void display(const std::vector<std::string>& lines, int highlight) {
-        HideCursor();
+        DisableScrollBars();
+        setCursorVisible(false);
         consoleHandle();
         for (size_t i = 0; i < lines.size(); i++) {
             std::string line = lines[i];
@@ -92,4 +107,5 @@ namespace Useful {
 
         }
     }
+    
 }

@@ -1,26 +1,5 @@
-﻿  task1_1.cpp
-D:\OOP\OOP\task1_1.cpp(9,16): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  task1_2.cpp
-D:\OOP\OOP\task1_2.cpp(12,16): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  task1_3.cpp
-D:\OOP\OOP\task1_3.cpp(7,14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  task2_1.cpp
-D:\OOP\OOP\task2_1.cpp(11,97): warning C4554: '>>': check operator precedence for possible error; use parentheses to clarify precedence
-  task2_2_descrypt.cpp
-  task2_2_enscrypt.cpp
-  task2_3_descrypt.cpp
-  task2_3_enscrypt.cpp
-  task2_4.cpp
-D:\OOP\OOP\task2_4.cpp(28,47): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
-          with
-          [
-              _Ty=int
-          ]
-  task3_1.cpp
-  task3_2.cpp
-  task3_3.cpp
-  task4_1.cpp
-  task4_2.cpp
-  task4_3.cpp
+﻿  task5_1.cpp
+  task5_2.cpp
+  task5_3.cpp
   Generating Code...
   OOP.vcxproj -> D:\OOP\x64\Debug\OOP.exe
