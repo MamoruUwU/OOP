@@ -28,6 +28,9 @@
     <Filter Include="Source Files\Lab5">
       <UniqueIdentifier>{70161f4c-b66b-4a1e-ae58-842ae8ccf151}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Lab6">
+      <UniqueIdentifier>{b530dbef-c759-40c4-b8e8-b1ff362237d2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="task1_1.cpp">
@@ -126,6 +129,21 @@
     <ClCompile Include="lab5.cpp">
       <Filter>Source Files\Lab5</Filter>
     </ClCompile>
+    <ClCompile Include="task6_1.cpp">
+      <Filter>Source Files\Lab6</Filter>
+    </ClCompile>
+    <ClCompile Include="task6_2.cpp">
+      <Filter>Source Files\Lab6</Filter>
+    </ClCompile>
+    <ClCompile Include="task6_3.cpp">
+      <Filter>Source Files\Lab6</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab6.cpp">
+      <Filter>Source Files\Lab6</Filter>
+    </ClCompile>
+    <ClCompile Include="lab6_visual.cpp">
+      <Filter>Source Files\Lab6</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="tasks1.h">
@@ -179,6 +197,18 @@
     <ClInclude Include="tasks5.h">
       <Filter>Source Files\Lab5</Filter>
     </ClInclude>
+    <ClInclude Include="tasks6.h">
+      <Filter>Source Files\Lab6</Filter>
+    </ClInclude>
+    <ClInclude Include="Histogram.h">
+      <Filter>Source Files\Lab6</Filter>
+    </ClInclude>
+    <ClInclude Include="Employee.h">
+      <Filter>Source Files\Lab6</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>Source Files\Lab6</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Lab2_visual.txt">
@@ -198,6 +228,9 @@
     </Text>
     <Text Include="lab5_visual.txt">
       <Filter>Source Files\Lab5</Filter>
+    </Text>
+    <Text Include="lab6_visual.txt">
+      <Filter>Source Files\Lab6</Filter>
     </Text>
   </ItemGroup>
 </Project>

@@ -137,6 +137,8 @@
     <ClCompile Include="lab4_visual.cpp" />
     <ClCompile Include="lab5.cpp" />
     <ClCompile Include="lab5_visual.cpp" />
+    <ClCompile Include="Lab6.cpp" />
+    <ClCompile Include="lab6_visual.cpp" />
     <ClCompile Include="Methods.cpp" />
     <ClCompile Include="Lab2.cpp" />
     <ClCompile Include="main.cpp" />
@@ -158,22 +160,29 @@
     <ClCompile Include="task4_1.cpp" />
     <ClCompile Include="task4_2.cpp" />
     <ClCompile Include="task4_3.cpp" />
+    <ClCompile Include="task6_1.cpp" />
+    <ClCompile Include="task6_2.cpp" />
+    <ClCompile Include="task6_3.cpp" />
     <ClCompile Include="Useful.cpp" />
     <ClCompile Include="Visual.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Employee.h" />
     <ClInclude Include="FullName.h" />
+    <ClInclude Include="Histogram.h" />
     <ClInclude Include="Labs.h" />
     <ClInclude Include="Liquid.h" />
     <ClInclude Include="Matrix.h" />
     <ClInclude Include="MatrixLong.h" />
     <ClInclude Include="Methods.h" />
     <ClInclude Include="Person.h" />
+    <ClInclude Include="Shape.h" />
     <ClInclude Include="tasks3.h" />
     <ClInclude Include="tasks1.h" />
     <ClInclude Include="tasks2.h" />
     <ClInclude Include="tasks4.h" />
     <ClInclude Include="tasks5.h" />
+    <ClInclude Include="tasks6.h" />
     <ClInclude Include="TicTacToe.h" />
     <ClInclude Include="Vector3D.h" />
     <ClInclude Include="Vector.h" />
@@ -186,6 +195,7 @@
     <Text Include="lab3_visual.txt" />
     <Text Include="lab4_visual.txt" />
     <Text Include="lab5_visual.txt" />
+    <Text Include="lab6_visual.txt" />
     <Text Include="Visual.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

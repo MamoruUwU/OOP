@@ -1,0 +1,11 @@
+                      
+
+
+
+                         
+
+                          Choice:
+		[ ] Task 1(Histogram)
+		[ ] Task 2(Employee)
+		[ ] Task 3(Shape)
+		[ ] Close

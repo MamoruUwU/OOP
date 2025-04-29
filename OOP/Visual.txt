@@ -10,6 +10,6 @@
                     [ ] Lab3 - Class base (finish)
                     [ ] Lab4 - Vectors and Matrix
                     [ ] Lab5 - Class -> class
-                    [ ] Lab6 - coming soon...
+                    [ ] Lab6 - CLASS -> Class -> class
                     [ ] Lab7 - coming soon...
                     [ ] Close
